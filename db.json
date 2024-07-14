@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Consola Play Station 5",
+      "precio": 700,
+      "imagen": "https://gamer4ever.com.co/cdn/shop/files/711719573432.png?v=1706722445"
+    },
+    {
+      "id": 2,
+      "nombre": "Consola Xbox Series X",
+      "precio": 500,
+      "imagen": "https://yadimania.com/wp-content/uploads/2021/01/xbox-serie-x.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Consola Nintendo Switch",
+      "precio": 300,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_814856-MLU70080201590_062023-F.webp"
+    },
+    {
+      "id": 4,
+      "nombre": "Computador Gamer",
+      "precio": 1200,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_721270-MCO76055246195_042024-F.webp"
+    },
+    {
+      "id": 5,
+      "nombre": "Monitor",
+      "precio": 150,
+      "imagen": "https://www.lg.com/content/dam/channel/wcms/co/images/monitores/22mp410-b_awp_escb_co_c/Basic-450.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Video Juegos Plataformas",
+      "precio": 80,
+      "imagen": "https://fotografias-neox.atresmedia.com/clipping/cmsimages02/2019/01/02/ACCCD14F-66E3-41E6-9021-79E5350AC631/98.jpg?crop=1280,720,x0,y0&width=1900&height=1069&optimize=high&format=webply"
+    }
+  ]
+}
