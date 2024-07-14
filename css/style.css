@@ -1,237 +1,235 @@
-html{
-    box-sizing: border-box;
-    font-size: 10px;
+html {
+  box-sizing: border-box;
+  font-size: 10px;
 }
-*,*::after,*::before{
-    box-sizing: inherit;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /**Globales**/
-.contenedor{
-    max-width: 1440px;
-    width: 90%;
-    height: 1400px;
-    margin: auto;
-    display: flex;
+.contenedor {
+  max-width: 1440px;
+  width: 90%;
+  height: 1400px;
+  margin: auto;
+  display: flex;
 }
-h1{
-    font-size: 16px;
+h1 {
+  font-size: 16px;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
-p{
-    font-size: 16px;
-    line-height: 2;
+p {
+  font-size: 16px;
+  line-height: 2;
 }
 
 /**Header**/
-.header{
-    background-color: rgb(10, 2, 36);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Press Start 2P';
-    font-size: 1.1rem;
+.header {
+  background-color: rgb(10, 2, 36);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Press Start 2P";
+  font-size: 1.1rem;
 }
-.iconos{
-    color: red;
-    margin-right: 1rem;
-    font-size: 2.4rem;
+.iconos {
+  color: red;
+  margin-right: 1rem;
+  font-size: 2.4rem;
 }
-.nombre-pagina{
-    color: #fff;
-    font-size: 2.4rem;
-    margin: 2rem 0;
+.nombre-pagina {
+  color: #fff;
+  font-size: 2.4rem;
+  margin: 2rem 0;
 }
 
 /** Productos**/
-@media(max-width:1440px){
-    .contenedor{
-        flex-direction: column-reverse
-    }
+@media (max-width: 1440px) {
+  .contenedor {
+    flex-direction: column-reverse;
+  }
 }
-.listado-productos{
-    height: 1400px;
-    margin-right: 3rem;
-    flex: 0 0 calc(50% - 1rem);
-    
+.listado-productos {
+  height: 1400px;
+  margin-right: 3rem;
+  flex: 0 0 calc(50% - 1rem);
 }
-.listado-productos h1{
-    font-family: 'Press Start 2P';
-    font-size: 30px;
-    text-align: center;
-    padding: 60px 10px 20px 10px;
+.listado-productos h1 {
+  font-family: "Press Start 2P";
+  font-size: 30px;
+  text-align: center;
+  padding: 60px 10px 20px 10px;
 }
-#mis-productos{
-    display: flex;
-   flex-wrap: wrap;
-    gap: 40px 10px;
-    overflow-y: scroll;
-    height: 1100px;
-    padding: 20px;
-    box-sizing: border-box;
+#mis-productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 10px;
+  overflow-y: scroll;
+  height: 1100px;
+  padding: 20px;
+  box-sizing: border-box;
 }
-#mis-productos::-webkit-scrollbar{
-    width: 10px;
+#mis-productos::-webkit-scrollbar {
+  width: 10px;
 }
 #mis-productos::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-    border-radius: 1rem; 
+  background: #f1f1f1;
+  border-radius: 1rem;
 }
 #mis-productos::-webkit-scrollbar-thumb {
-    background: #888; 
-    border-radius: 1rem; 
+  background: #888;
+  border-radius: 1rem;
 }
 #mis-productos::-webkit-scrollbar-thumb:hover {
-    background: #555; 
+  background: #555;
 }
-.producto{
-    background-color: #dad009;
-    border: 5px solid #7e7004;
-    padding: 20px;
-    box-sizing: border-box;
-    border-radius: 10%;
-    height: calc(35% - 5%);
-    flex: 0 0 calc(33.3% - 1rem);
+.producto {
+  background-color: #dad009;
+  border: 5px solid #7e7004;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10%;
+  height: calc(35% - 5%);
+  flex: 0 0 calc(33.3% - 1rem);
 }
-.producto img{
-    object-fit:fill;
-    width: 100%;
-    height: calc(100% - 10rem); 
-    border: 3px solid #21201c;
-    border-radius: 2%;
+.producto img {
+  object-fit: fill;
+  width: 100%;
+  height: calc(100% - 10rem);
+  border: 3px solid #21201c;
+  border-radius: 2%;
 }
-.contenedor-informacion-producto{
-    font-family: 'IBM Plex Mono';
+.contenedor-informacion-producto {
+  font-family: "IBM Plex Mono";
 }
-.contenedor-informacion-producto{
-    font-family: 'IBM Plex Mono';
+.contenedor-informacion-producto {
+  font-family: "IBM Plex Mono";
 }
-.contenedor-informacion-producto p{
-    font-size: 12px;
-    color: rgb(251, 251, 251);
+.contenedor-informacion-producto p {
+  font-size: 12px;
+  color: rgb(251, 251, 251);
 }
-.contenedor-valor-producto{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #c21616;
+.contenedor-valor-producto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #c21616;
 }
-.contenedor-valor-producto p{
-    font-size: 1.6rem;
+.contenedor-valor-producto p {
+  font-size: 1.6rem;
 }
-.contenedor-valor-producto i{
-    font-size: 2rem;
-    cursor: pointer;
+.contenedor-valor-producto i {
+  font-size: 2rem;
+  cursor: pointer;
 }
-@media(max-width:768px){
-    .contenedor{
-        flex-direction: column-reverse
-    };
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column-reverse;
+  }
 }
-@media(max-width:992px){
-    .producto{
-        flex: 0 0 calc(50% - 1rem);
-    }
-} 
-@media(max-width:768px){
-    .producto{
-        flex: 0 0 calc(50% - 1rem);
-    }
-    .contenedor-informacion-producto p{
-        font-size: 1.2rem;
-    }
-
+@media (max-width: 992px) {
+  .producto {
+    flex: 0 0 calc(50% - 1rem);
+  }
 }
-@media(max-width:576px){
-    .producto{
-        flex: 0 0 calc(100%);
-    }
-    .contenedor-informacion-producto p{
-        font-size: 1.2rem;
-    }
-
-} 
+@media (max-width: 768px) {
+  .producto {
+    flex: 0 0 calc(50% - 1rem);
+  }
+  .contenedor-informacion-producto p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .producto {
+    flex: 0 0 calc(100%);
+  }
+  .contenedor-informacion-producto p {
+    font-size: 1.2rem;
+  }
+}
 
 /** Formulario**/
-#formulario-producto{
-    display: flex;
-    flex: 0 0 calc(40% - 100px);
-    box-sizing: border-box;
-    flex-direction: column;
-    align-items:flex-end;
+#formulario-producto {
+  display: flex;
+  flex: 0 0 calc(40% - 100px);
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-end;
 }
-#formulario-producto h1{
-    font-family: 'Press Start 2P';
-    font-size: 32px;
-    text-align:center;
-    padding: 60px 10px 20px;
-    width: 500px;
+#formulario-producto h1 {
+  font-family: "Press Start 2P";
+  font-size: 32px;
+  text-align: center;
+  padding: 60px 10px 20px;
+  width: 500px;
 }
-#form-agregar-producto{
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    width: 700px;
-    align-items: flex-end;
+#form-agregar-producto {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  width: 700px;
+  align-items: flex-end;
 }
-#form-agregar-producto input{
-    padding: 1rem;
-    margin-bottom: 2rem;
-    border-radius: 2rem;
-    border: 2px solid #03318C;
-    font-size: 1.4rem;
-    box-sizing: border-box;
-    width: 500px;
+#form-agregar-producto input {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  border: 2px solid #03318c;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  width: 500px;
 }
-.botones-formulario{
-    display: flex;
-    justify-content: space-evenly;
+.botones-formulario {
+  display: flex;
+  justify-content: space-evenly;
 }
-.botones-formulario button{
-    padding: 1rem 4rem;
-    cursor: pointer;
-    border-radius: 1rem;
-    border: 2px solid #03318C;
-    font-size: 1.6rem;
-
+.botones-formulario button {
+  padding: 1rem 4rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  border: 2px solid #03318c;
+  font-size: 1.6rem;
 }
-.enviar{
-    background-color: #03318C;
-    color: #fff;
-    transition: background-color 0.3s ease-in-out;
+.enviar {
+  background-color: #03318c;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
 }
-.limpiar{
-    background-color: #fff;
-    color: #03318C;
-    transition: background-color 0.3s ease-in-out;
+.limpiar {
+  background-color: #fff;
+  color: #03318c;
+  transition: background-color 0.3s ease-in-out;
 }
-.enviar:hover{
-    background-color: #fff;
-    color: #03318C;
+.enviar:hover {
+  background-color: #fff;
+  color: #03318c;
 }
-.limpiar:hover{
-    background-color: #03318C;
-    color: #fff;
+.limpiar:hover {
+  background-color: #03318c;
+  color: #fff;
 }
 /**Footer**/
-.footer{
-    background-color: rgb(10, 2, 36);
-    font-family: 'Press Start 2P';
-    font-size: 1.1rem;
+.footer {
+  background-color: rgb(10, 2, 36);
+  font-family: "Press Start 2P";
+  font-size: 1.1rem;
 }
-.logo-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.footer p{
-    font-family: 'IBM Plex Mono';
-    text-align: center;
-    margin: 0 0 1.2rem 0;
-    color: #fff;
+.footer p {
+  font-family: "IBM Plex Mono";
+  text-align: center;
+  margin: 0 0 1.2rem 0;
+  color: #fff;
 }
